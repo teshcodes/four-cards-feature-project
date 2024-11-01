@@ -1,8 +1,9 @@
 body {
     text-align: start;
-    margin-bottom: 50px;
     width: 100%;
     margin: 0 ;
+    overflow-x: hidden;
+    padding-bottom: 150px;
 }
 
 .overall-container  {
@@ -170,9 +171,7 @@ body {
 @media only screen and (min-width: 768px) {
     .overall-container {
         margin: 0 auto;
-        width: 200%;
-        height: 1200px;
-        border: 2px solid red;
+        width: 100%;
     }
 
     .technology-delivery-container {
