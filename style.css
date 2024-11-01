@@ -1,0 +1,287 @@
+body {
+    text-align: start;
+    margin-bottom: 50px;
+    width: 100%;
+    margin: 0 ;
+}
+
+.overall-container  {
+    padding: 0px 20px 0px 20px;
+}
+
+.technology-delivery-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.delivery-box {
+    font-size: 27px;
+    opacity: 0.5;
+}
+
+.technology-box {
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.artificial-intelligence-box {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 0.5;
+}
+
+.four-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* =======surpervisor=== */
+.supervisor-container {
+    margin-top: 50px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    width: 260px;
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px #e3dede;
+}
+
+.supervisor-box {
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.monitors-activity {
+    width: 220px;
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.supervisor-image {
+    padding-left: 190px;
+    padding-top: 0px;
+    margin-top: 35px;
+}
+
+/* ======team builder=== */
+.team-builder-container {
+    margin-top: 20px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    width: 260px;
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px #e3dede;
+}
+
+.team-builder-box {
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.scan-talent {
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.builder-image {
+    padding-left: 190px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+/* ======---karma---====== */
+.karma-container {
+    margin-top: 20px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    width: 260px;
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px #e3dede;
+}
+
+.karma-box {
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.quality-evaluation {
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 14px;
+    opacity: 0.5;
+    width: 200px;
+}
+
+.karma-image {
+    padding-left: 190px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+/* ======---calculator---====== */
+.calculator-container {
+    margin-top: 20px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    width: 260px;
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px #e3dede;
+}
+
+.calculator-box {
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.delivery-estimates {
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 14px;
+    opacity: 0.5;
+    width: 200px;
+}
+
+.calculator-image {
+    padding-left: 190px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .overall-container {
+        margin: 0 auto;
+        width: 200%;
+        height: 1200px;
+        border: 2px solid red;
+    }
+
+    .technology-delivery-container {
+        text-align: center;
+        margin-top: 50px;
+        line-height: 40px;
+    }
+
+    .delivery-box {
+        font-size: 40px;
+        opacity: 0.5;
+    }
+
+    .technology-box {
+        font-size: 42px;
+        font-weight: bold;
+        opacity: 0.7;
+    }
+
+    .artificial-intelligence-box {
+        justify-self: center;
+        margin-top: 25px;
+        width: 500px;
+        line-height: 23px;
+    }
+
+    .supervisor-and-builder  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .four-container  {
+        justify-items: center;
+    }
+
+    /* ====----supervisor----====== */
+    .supervisor-container {
+        margin-left: -108%;
+        margin-top: -70px;
+        width: 300px;
+    }
+    .supervisor-image {
+        width: 60px;
+        height: 60px;
+        padding-left: 200px;
+        margin-top: 15px;
+    }
+
+    /* ====----team builder----===== */
+    .team-builder-container {
+         width: 300px;
+    }
+
+    .scan-talent {
+        width: 230px;
+        margin-top: 5px;
+        line-height: 25px;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+
+    .builder-image {
+        width: 60px;
+        height: 60px;
+        padding-left: 200px;
+        margin-top: 2px;
+    }
+
+    /* ======---karma---===== */
+     .karma-container {
+        margin-top: -100px;
+        width: 300px;
+    }
+
+    .quality-evaluation {
+        width: 240px;
+        margin-top: 5px;
+        line-height: 25px;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+
+    .karma-image {
+        width: 60px;
+        height: 60px;
+        padding-left: 220px;
+        margin-top: 2px;
+    } 
+
+    /* ====----calculator---===== */
+    .calculator-container  {
+        margin-top: -310px;
+        margin-left: 108%;
+        width: 300px;
+    }
+
+    .delivery-estimates {
+        width: 240px;
+        margin-top: 5px;
+        line-height: 25px;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+    
+    .calculator-image {
+        width: 60px;
+        height: 60px;
+        padding-left: 220px;
+        margin-top: 2px;
+    } 
+
+}
